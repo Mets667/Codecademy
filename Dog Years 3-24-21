@@ -1,0 +1,15 @@
+const myAge = 52;
+//my current age
+let earlyYears = 2;
+//Early dog years are twice the age of years after age three
+earlyYears *=10.5
+//the first two years of a dog's age
+let laterYears = myAge - 2;
+//dogs age four years after age three for each human year
+laterYears *= 4;
+//Human later years are equal to a dog's four years
+console.log(earlyYears);
+console.log(laterYears);
+let myAgeInDogYears = earlyYears + laterYears
+let myName = "Mets".toLowerCase();
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
